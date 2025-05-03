@@ -332,7 +332,7 @@ if (isset($_POST['login'])) {
     $run_query = mysqli_query($con, $query);
     $count_rows = mysqli_num_rows($run_query);
     if ($count_rows == 0) {
-        echo "<script>alert('Please Enter Valid Details');</script>";
+        echo "<script>alert('Please Enter Valid Detail's');</script>";
         echo "<script>window.open('PatientLogin.php','_self')</script>";
     }
     while ($row = mysqli_fetch_array($run_query)) {

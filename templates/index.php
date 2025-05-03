@@ -34,6 +34,7 @@
           <a href="#about">About</a>
           <a href="#services">Services</a>
           <a href="#need">Need</a>
+          <a href="http://localhost/Mental-Health-Chatbot-using-AI/Hospital-Management-System-main/hospital/">HMS</a>
           <a href="feedback.php">Feedback</a>
         </div>
       </div>
@@ -57,7 +58,8 @@
         <p><h3>Hola !</h3>I m a<b style="color: chartreuse;"> Artificially Intelligent </b> Chatbot
           and I give you overall assesed Mental Health<b style="color: chartreuse;"> analysis</b> according to your responses !!!!!</p>   
           <div>
-            <a href="chatbot.php">
+            <a href="http://127.0.0.1:5000/chatbot.php">
+            
               <button class="btn btn-secondary"> Wanna Chat with Me !</button>
             </a>
           </div>

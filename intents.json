@@ -1,9 +1,13 @@
+
 {
     "intents": [
       {
         "tag": "greetings",
         "patterns": [
           "hi",
+          "Hi",
+          "Hey",
+          "hey",
           "hello",
           "Hello",
           "hemluuu",
@@ -20,8 +24,14 @@
         "tag":"feel_good",
         "patterns":[
           "I am Fine",
+          "fine",
+          "Fine",
+          "Good",
+          "good",
+          "I am good",
           "I am very happy",
           "I am okay",
+          "yes",
           "I am Feeling wonderfull"
         ],
         "responses":[
@@ -38,6 +48,7 @@
           "I am not feeling good",
           "I am not fine",
           "Feeling very down",
+          "no",
           "Feeling distressed"
         ],
         "responses":[
@@ -51,6 +62,8 @@
           "I cant sleep properly from past few weeks",
           "Cant get proper sleep from many days",
           "Not able to sleep peacefully",
+          "6 to 7 hours a day",
+          "yes",
           "I am feeling like having insomnia"
         ],
         "responses":[
@@ -93,6 +106,7 @@
           "Yes i smoke 4 packets every day",
           "I am addicted to smoking",
           "Yes i some frequently"
+      
         ],
         "responses":[
           "You should stop smoking !! If you can't then try Nicotine free cigarettes first and then start doing some yoga to concentrate on work without Cigarette and leave smoking as soon as possible!!!!!<br>Please tell me how are your relations with your friends or family or parents ?"
@@ -360,3 +374,4 @@
     ]
   }
   
+
